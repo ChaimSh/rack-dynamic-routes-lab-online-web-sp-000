@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     req = Rack::Request.new(env)
 
-    if req.path=="/itmens"
+    if req.path=="/items"
       resp.write "You requested the items"
     else
       resp.write "Route not found"
