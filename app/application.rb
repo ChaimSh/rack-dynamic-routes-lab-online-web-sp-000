@@ -17,7 +17,7 @@ class Application
       end
     else
       resp.write "Route not Found"
-      rsp.status = 404
+      resp.status = 404
     end
 
 
